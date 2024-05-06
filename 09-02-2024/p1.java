@@ -21,4 +21,12 @@ class B extends A{
     void display(){
         super.display();
     }
+
+}
+
+class C{
+    public static void main(String[] args) {
+        B o1 = new B(10);
+        o1.display();
+    }
 }
